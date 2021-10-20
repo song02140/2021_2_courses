@@ -1,8 +1,11 @@
-#
+# nmap
 
-https://www.tenlong.com.tw/search?utf8=%E2%9C%93&keyword=nmap
+## 參考書籍
+- [天龍書局](https://www.tenlong.com.tw/search?utf8=%E2%9C%93&keyword=nmap)
+- [Nmap 滲透測試指南 商廣明(2015)](https://www.tenlong.com.tw/products/9787115403957)
+- [諸神之眼 : Nmap 網絡安全審計技術揭秘(李華峰,2017)](https://www.tenlong.com.tw/products/9787302472360)
 
-
+## 指令說明
 ```
 map -h
 Nmap 7.91 ( https://nmap.org )
