@@ -1,9 +1,15 @@
 # 參考書籍
 
 - [Mastering Metasploit - Fourth Edition(2020)](https://www.packtpub.com/product/mastering-metasploit-fourth-edition/9781838980078)
+- [Metasploit Penetration Testing Cookbook - Third Edition]()
 - [Web 滲透測試實戰：基於 Metasploit 5.0 ](https://www.tenlong.com.tw/products/9787111686279)
+- [Kali Linux 2 網絡滲透測試實踐指南, 2/e(李華峰,2021)](https://www.tenlong.com.tw/products/9787115555410)
+- [黑客秘笈 : 滲透測試實用指南, 3/e (The Hacker Playbook 3: Practical Guide To Penetration Testing)](https://www.tenlong.com.tw/products/9787115529176)
+- [駭客就在你旁邊：內網安全攻防滲透你死我活(徐焱、賈曉璐)(2021)](https://www.tenlong.com.tw/products/9789860776010)
+- [Kali Linux 高級滲透測試, 3/e (Mastering Kali Linux for Advanced Penetration Testing)(2020)](https://www.tenlong.com.tw/products/9787111659471)
+- [網絡安全與攻防策略：現代威脅應對之道（原書第2版） Cybersecurity - Attack and Defense Strategies](https://www.tenlong.com.tw/products/9787111679257)
 
-
+- [METASPLOIT UNLEASHED](https://www.offensive-security.com/metasploit-unleashed/)
 
 ##
 ```
