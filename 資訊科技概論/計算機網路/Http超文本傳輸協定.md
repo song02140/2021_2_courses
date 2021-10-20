@@ -53,3 +53,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 
 - [HTTP基本認證](https://zh.wikipedia.org/wiki/HTTP%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%81)
 - [HTTP摘要認證](https://zh.wikipedia.org/wiki/HTTP%E6%91%98%E8%A6%81%E8%AE%A4%E8%AF%81)  [Digest access authentication](https://en.wikipedia.org/wiki/Digest_access_authentication)
+
+
+# [Hypertext Transfer Protocol Secure (HTTPS)](https://en.wikipedia.org/wiki/HTTPS)
