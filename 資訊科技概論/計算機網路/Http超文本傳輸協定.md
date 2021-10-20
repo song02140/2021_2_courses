@@ -36,14 +36,20 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 
 ### [HTTP Status Code(HTTP狀態碼)](https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81)
 
-| 類別 |  說明  | 
-|  ---- |  -----  | 
-| 1xx| 訊息| 
-| 2xx| 成功| 
-| 3xx| 重新導向| 
-| 4xx| 客戶端錯誤| 
-| 5xx| 伺服器錯誤| 
+| 類別 |  簡述  | 說明 |
+|  ---- |  -----  | -----  | 
+| 1xx| 訊息| 請求已被伺服器接收，繼續處理|
+| 2xx| 成功| 請求已成功被伺服器接收、理解、並接受|
+| 3xx| 重新導向| 需要後續操作才能完成這一請求|
+| 4xx| 客戶端錯誤| 請求含有詞法錯誤或者無法被執行|
+| 5xx| 伺服器錯誤| 伺服器在處理某個正確請求時發生錯誤|
 
 ## 使用curl測試HTTP協定
 
 ## 使用python測試HTTP協定
+
+
+# HTTP 認證
+
+- [HTTP基本認證](https://zh.wikipedia.org/wiki/HTTP%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%81)
+- [HTTP摘要認證](https://zh.wikipedia.org/wiki/HTTP%E6%91%98%E8%A6%81%E8%AE%A4%E8%AF%81)  [Digest access authentication](https://en.wikipedia.org/wiki/Digest_access_authentication)
