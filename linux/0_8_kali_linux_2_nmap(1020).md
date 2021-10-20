@@ -1,9 +1,18 @@
 # nmap
 
 ## 參考書籍
-- [天龍書局](https://www.tenlong.com.tw/search?utf8=%E2%9C%93&keyword=nmap)
+
+- [天龍書局有賣的nmap](https://www.tenlong.com.tw/search?utf8=%E2%9C%93&keyword=nmap)
+
 - [Nmap 滲透測試指南 商廣明(2015)](https://www.tenlong.com.tw/products/9787115403957)
 - [諸神之眼 : Nmap 網絡安全審計技術揭秘(李華峰,2017)](https://www.tenlong.com.tw/products/9787302472360)
+- [從實踐中學習 Nmap 滲透測試(大學霸IT達人 編著,2021)](https://www.tenlong.com.tw/products/9787111682202)
+- [資安專家的 nmap 與 NSE 網路診斷與掃描技巧大公開(陳明照,2018)](https://www.tenlong.com.tw/products/9789864767984)
+- [Nmap Network Exploration and Security Auditing Cookbook - Third Edition(2021)](https://www.packtpub.com/product/nmap-network-exploration-and-security-auditing-cookbook-third-edition/9781838649357)
+- [Nmap Network Scanning: The Official Nmap Project Guide to Network Discovery and Security Scanning (Paperback)
+nmap作者Gordon Fyodor Lyon親自寫的書2009](https://www.tenlong.com.tw/products/9780979958717)
+- [使用lua開發NMAP 漏洞攻擊程式 Mastering the Nmap Scripting Engine(2015)](https://www.packtpub.com/product/mastering-the-nmap-scripting-engine/9781782168317)
+
 
 ## 指令說明
 ```
