@@ -212,8 +212,415 @@
 
 6.16 Wrapping Up
 ```
+## 7 Active Information Gathering
+```
+7.1 DNS Enumeration
+7.1.1 Interacting with a DNS Server
+7.1.2 Automating Lookups
+7.1.3 Forward Lookup Brute Force
+7.1.4 Reverse Lookup Brute Force
+7.1.5 DNS Zone Transfers
+7.1.6 Relevant Tools in Kali Linux
 
+7.2 Port Scanning
+7.2.1 TCP / UDP Scanning
+7.2.2 Port Scanning with Nmap
+7.2.3 Masscan
+
+7.3 SMB Enumeration
+7.3.1 Scanning for the NetBIOS Service
+7.3.2 Nmap SMB NSE Scripts
+
+7.4 NFS Enumeration
+7.4.1 Scanning for NFS Shares
+7.4.2 Nmap NFS NSE Scripts
+
+7.5 SMTP Enumeration
+
+7.6 SNMP Enumeration
+7.6.1 The SNMP MIB Tree
+7.6.2 Scanning for SNMP
+7.6.3 Windows SNMP Enumeration Example
+7.7 Wrapping Up
+```
+
+## 8 Vulnerability Scanning
+```
+8.1 Vulnerability Scanning Overview and Considerations
+8.1.1 How Vulnerability Scanners Work
+8.1.2 Manual vs. Automated Scanning
+8.1.3 Internet Scanning vs Internal Scanning
+8.1.4 Authenticated vs Unauthenticated Scanning
+
+8.2 Vulnerability Scanning with Nessus
+8.2.1 Installing Nessus
+8.2.2 Defining Targets
+8.2.3 Configuring Scan Definitions
+8.2.4 Unauthenticated Scanning With Nessus
+8.2.5 Authenticated Scanning With Nessus
+8.2.6 Scanning with Individual Nessus Plugins
+
+
+8.3 Vulnerability Scanning with Nmap
+8.4 Wrapping Up
+```
+## 9 Web Application Attacks
+```
+9.1 Web Application Assessment Methodology
+
+9.2 Web Application Enumeration
+9.2.1 Inspecting URLs
+9.2.2 Inspecting Page Content
+9.2.3 Viewing Response Headers
+9.2.4 Inspecting Sitemaps
+9.2.5 Locating Administration Consoles
+
+9.3 Web Application Assessment Tools
+9.3.2 DIRB
+9.3.3 Burp Suite
+9.3.4 Nikto
+
+9.4 Exploiting Web-based Vulnerabilities
+9.4.1 Exploiting Admin Consoles
+9.4.2 Cross-Site Scripting (XSS)
+9.4.3 Directory Traversal Vulnerabilities
+9.4.4 File Inclusion Vulnerabilities
+9.4.5 SQL Injection
+
+9.5 Extra Miles
+9.5.1 Exercises
+9.6 Wrapping Up
+```
+
+## 10 Introduction to Buffer Overflows
+```
+10.1 Introduction to the x Architecture
+10.1.1 Program Memory
+10.1.2 CPU Registers
+
+10.2 Buffer Overflow Walkthrough
+10.2.1 Sample Vulnerable Code
+10.2.2 Introducing the Immunity Debugger
+10.2.3 Navigating Code
+10.2.4 Overflowing the Buffer
+10.2.5 Exercises
+10.3 Wrapping Up
+```
+## 11 Windows Buffer Overflows
+```
+11.1 Discovering the Vulnerability
+11.1.1 Fuzzing the HTTP Protocol
+
+11.2 Win Buffer Overflow Exploitation
+11.2.1 A Word About DEP, ASLR, and CFG
+11.2.2 Replicating the Crash
+11.2.3 Controlling EIP
+11.2.4 Locating Space for Our Shellcode
+11.2.5 Checking for Bad Characters
+11.2.6 Redirecting the Execution Flow
+11.2.7 Finding a Return Address
+11.2.8 Generating Shellcode with Metasploit
+11.2.9 Getting a Shell
+11.2.10 Improving the Exploit
+
+11.3 Wrapping Up
+```
+## 12 Linux Buffer Overflows
+```
+12.1 About DEP, ASLR, and Canaries
+12.2 Replicating the Crash
+12.3 Controlling EIP
+12.4 Locating Space for Our Shellcode
+12.5 Checking for Bad Characters
+12.6 Finding a Return Address
+12.7 Getting a Shell
+12.8 Wrapping Up
+```
+## 13 Client-Side Attacks
+```
+13.1 Know Your Target
+13.1.1 Passive Client Information Gathering
+13.1.2 Active Client Information Gathering
+
+13.2 Leveraging HTML Applications
+13.2.1 Exploring HTML Applications
+13.2.2 HTA Attack in Action
+
+13.3 Exploiting Microsoft Office
+13.3.1 Installing Microsoft Office
+13.3.2 Microsoft Word Macro
+13.3.3 Object Linking and Embedding
+13.3.4 Evading Protected View
+
+13.4 Wrapping Up
+```
+## 14 Locating Public Exploits
+```
+14.1 A Word of Caution
+
+14.2 Searching for Exploits
+14.2.1 Online Exploit Resources
+14.2.2 Offline Exploit Resources
+
+14.3 Putting It All Together
+
+14.4 Wrapping Up
+```
+## 15 Fixing Exploits
+```
+15.1 Fixing Memory Corruption Exploits
+15.1.1 Overview and Considerations
+15.1.2 Importing and Examining the Exploit
+15.1.3 Cross-Compiling Exploit Code
+15.1.4 Changing the Socket Information
+15.1.5 Changing the Return Address
+15.1.6 Changing the Payload
+15.1.7 Changing the Overflow Buffer
+
+15.2 Fixing Web Exploits
+15.2.1 Considerations and Overview
+15.2.2 Selecting the Vulnerability
+15.2.3 Changing Connectivity Information
+15.2.4 Troubleshooting the “index out of range” Error
+
+15.3 Wrapping Up
+```
+## 16 File Transfers
+```
+16.1 Considerations and Preparations
+16.1.1 Dangers of Transferring Attack Tools
+16.1.2 Installing Pure-FTPd
+16.1.3 The Non-Interactive Shell
+
+16.2 Transferring Files with Windows Hosts
+16.2.1 Non-Interactive FTP Download
+16.2.2 Windows Downloads Using Scripting Languages
+16.2.3 Windows Downloads with exe2hex and PowerShell
+16.2.4 Windows Uploads Using Windows Scripting Languages
+16.2.5 Uploading Files with TFTP
+
+16.3 Wrapping Up
+```
+
+## 17 Antivirus Evasion
+```
+17.1 What is Antivirus Software
+
+17.2 Methods of Detecting Malicious Code
+17.2.1 Signature-Based Detection
+17.2.2 Heuristic and Behavioral-Based Detection
+
+17.3 Bypassing Antivirus Detection
+17.3.1 On-Disk Evasion
+17.3.2 In-Memory Evasion
+17.3.3 AV Evasion: Practical Example
+
+17.4 Wrapping Up
+```
+## 18 Privilege Escalation
+```
+18.1 Information Gathering
+18.1.1 Manual Enumeration
+18.1.2 Automated Enumeration
+
+18.2 Windows Privilege Escalation Examples
+18.2.1 Understanding Windows Privileges and Integrity Levels
+18.2.2 Introduction to User Account Control (UAC)
+18.2.3 User Account Control (UAC) Bypass: fodhelper.exe Case Study
+18.2.4 Insecure File Permissions: Serviio Case Study
+18.2.5 Leveraging Unquoted Service Paths
+18.2.6 Windows Kernel Vulnerabilities: USBPcap Case Study
+
+
+18.3 Linux Privilege Escalation Examples
+18.3.1 Understanding Linux Privileges
+18.3.2 Insecure File Permissions: Cron Case Study
+18.3.3 Insecure File Permissions: /etc/passwd Case Study
+18.3.4 Kernel Vulnerabilities: CVE-7-2 Case Study
+
+18.4 Wrapping Up
+```
+## 19 Password Attacks
+```
+19.1 Wordlists
+19.1.1 Standard Wordlists
+
+19.2 Brute Force Wordlists
+
+19.3 Common Network Service Attack Methods
+19.3.1 HTTP htaccess Attack with Medusa
+19.3.2 Remote Desktop Protocol Attack with Crowbar
+19.3.3 SSH Attack with THC-Hydra
+19.3.4 HTTP POST Attack with THC-Hydra
+
+19.4 Leveraging Password Hashes
+19.4.1 Retrieving Password Hashes
+19.4.2 Passing the Hash in Windows
+19.4.3 Password Cracking
+
+19.5 Wrapping Up
+```
+
+## 20 Port Redirection and Tunneling
+```
+20.1 Port Forwarding
+20.1.1 RINETD
+
+20.2 SSH Tunneling
+20.2.1 SSH Local Port Forwarding
+20.2.2 SSH Remote Port Forwarding
+20.2.3 SSH Dynamic Port Forwarding
+
+20.3 PLINK.exe
+20.4 NETSH
+20.5 HTTPTunnel-ing Through Deep Packet Inspection
+
+20.6 Wrapping Up
+```
+## 21 Active Directory Attacks
+```
+21.1 Active Directory Theory
+
+21.2 Active Directory Enumeration
+21.2.1 Traditional Approach
+21.2.2 A Modern Approach
+21.2.3 Resolving Nested Groups
+21.2.4 Currently Logged on Users
+21.2.5 Enumeration Through Service Principal Names
+
+21.3 Active Directory Authentication
+21.3.1 NTLM Authentication
+21.3.2 Kerberos Authentication
+21.3.3 Cached Credential Storage and Retrieval
+21.3.4 Service Account Attacks
+21.3.5 Low and Slow Password Guessing
+
+21.4 Active Directory Lateral Movement
+21.4.1 Pass the Hash
+21.4.2 Overpass the Hash
+21.4.3 Pass the Ticket
+21.4.4 Distributed Component Object Model
+
+21.5 Active Directory Persistence
+21.5.1 Golden Tickets
+21.5.2 Domain Controller Synchronization
+21.6 Wrapping Up
+```
+##
+```
+22 The Metasploit Framework
+22.1 Metasploit User Interfaces and Setup
+22.1.1 Getting Familiar with MSF Syntax
+22.1.2 Metasploit Database Access
+22.1.3 Auxiliary Modules
+22.2 Exploit Modules
+22.2.1 SyncBreeze Enterprise
+22.3 Metasploit Payloads
+22.3.1 Staged vs Non-Staged Payloads
+22.3.2 Meterpreter Payloads
+22.3.3 Experimenting with Meterpreter
+22.3.4 Executable Payloads
+22.3.5 Metasploit Exploit Multi Handler
+22.3.6 Client-Side Attacks
+22.3.7 Advanced Features and Transports
+22.4 Building Our Own MSF Module
+22.5 Post-Exploitation with Metasploit
+22.5.1 Core Post-Exploitation Features
+22.5.2 Migrating Processes
+22.5.3 Post-Exploitation Modules
+22.5.4 Pivoting with the Metasploit Framework
+22.6 Metasploit Automation
+22.7 Wrapping Up
+```
+
+## 23 PowerShell Empire
+```
+23.1 Installation, Setup, and Usage
+23.1.1 PowerShell Empire Syntax
+23.1.2 Listeners and Stagers
+23.1.3 The Empire Agent
+
+23.2 PowerShell Modules
+23.2.1 Situational Awareness
+23.2.2 Credentials and Privilege Escalation
+
+23.2.3 Lateral Movement
+23.3 Switching Between Empire and Metasploit
+23.4 Wrapping Up
+```
+
+
+## 24 Assembling the Pieces: Penetration Test Breakdown
+```
+24.1 Public Network Enumeration
+
+24.2 Targeting the Web Application
+24.2.1 Web Application Enumeration
+24.2.2 SQL Injection Exploitation
+24.2.3 Cracking the Password
+24.2.4 Enumerating the Admin Interface
+24.2.5 Obtaining a Shell
+24.2.6 Post-Exploitation Enumeration
+24.2.7 Creating a Stable Pivot Point
+
+24.3 Targeting the Database
+24.3.1 Enumeration
+24.3.2 Attempting to Exploit the Database
+
+24.4 Deeper Enumeration of the Web Application Server
+24.4.1 More Thorough Post Exploitation
+24.4.2 Privilege Escalation
+24.4.3 Searching for DB Credentials
+
+24.5 Targeting the Database Again
+24.5.1 Exploitation
+24.5.2 Post-Exploitation Enumeration
+24.5.3 Creating a Stable Reverse Tunnel
+
+24.6 Targeting Poultry
+Z??少了24.6.1
+24.6.2 Enumeration
+24.6.3 Exploitation (Or Just Logging In)
+24.6.4 Post-Exploitation Enumeration
+24.6.5 Unquoted Search Path Exploitation
+24.6.6 Post-Exploitation Enumeration
+
+24.7 Internal Network Enumeration
+24.7.1 Reviewing the Results
+
+24.8 Targeting the Jenkins Server
+24.8.1 Application Enumeration
+24.8.2 Exploiting Jenkins
+24.8.3 Post Exploitation Enumeration
+24.8.4 Privilege Escalation
+24.8.5 Post Exploitation Enumeration
+
+24.9 Targeting the Domain Controller
+24.9.1 Exploiting the Domain Controller
+
+24.10 Wrapping Up
+```
+
+## 25 Trying Harder: The Labs
+```
+25.1 Real Life Simulations
+25.2 Machine Dependencies
+25.3 Cloned Lab Machines
+25.4 Unlocking Networks
+25.5 Routing
+25.6 Machine Ordering & Attack Vectors
+25.7 Firewall / Routers / NAT
+25.8 Passwords
+```
+
+##
 ```
 
 
 ```
+
+
+
+
+
+
