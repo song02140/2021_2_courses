@@ -36,13 +36,13 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 
 ### [HTTP Status Code(HTTP狀態碼)](https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81)
 
-! 類別 ! 說明  !
-! ---- ! -----  !
-!1xx!訊息!
-!2xx!成功!
-!3xx!重新導向!
-!4xx!客戶端錯誤!
-!5xx!伺服器錯誤!
+| 類別 |  說明  | 
+|  ---- |  -----  | 
+| 1xx| 訊息| 
+| 2xx| 成功| 
+| 3xx| 重新導向| 
+| 4xx| 客戶端錯誤| 
+| 5xx| 伺服器錯誤| 
 
 ## 使用curl測試HTTP協定
 
