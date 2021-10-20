@@ -8,13 +8,13 @@ map -h
 Nmap 7.91 ( https://nmap.org )
 Usage: nmap [Scan Type(s)] [Options] {target specification}
 
-TARGET SPECIFICATION:
+TARGET SPECIFICATION:設定掃描對象
   Can pass hostnames, IP addresses, networks, etc.
   Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
-  -iL <inputfilename>: Input from list of hosts/networks
-  -iR <num hosts>: Choose random targets
-  --exclude <host1[,host2][,host3],...>: Exclude hosts/networks
-  --excludefile <exclude_file>: Exclude list from file
+  -iL <inputfilename>: Input from list of hosts/networks 只掃描檔案所列的主機或網段
+  -iR <num hosts>: Choose random targets 隨機目標(亂掃)
+  --exclude <host1[,host2][,host3],...>: Exclude hosts/networks 不要掃的主機或網段
+  --excludefile <exclude_file>: Exclude list from file  不要掃檔案中所列的主機或網段
 
 
 HOST DISCOVERY:主機發現
@@ -74,11 +74,13 @@ SCRIPT SCAN:(使用腳本程式掃描)
 
 
 
-OS DETECTION:
+OS DETECTION:作業系統偵測 ==> 超難完美
   -O: Enable OS detection
   --osscan-limit: Limit OS detection to promising targets
   --osscan-guess: Guess OS more aggressively
-TIMING AND PERFORMANCE:
+
+
+TIMING AND PERFORMANCE: 效率與效能
   Options which take <time> are in seconds, or append 'ms' (milliseconds),
   's' (seconds), 'm' (minutes), or 'h' (hours) to the value (e.g. 30m).
   -T<0-5>: Set timing template (higher is faster)
@@ -91,10 +93,11 @@ TIMING AND PERFORMANCE:
   --scan-delay/--max-scan-delay <time>: Adjust delay between probes
   --min-rate <number>: Send packets no slower than <number> per second
   --max-rate <number>: Send packets no faster than <number> per second
-FIREWALL/IDS EVASION AND SPOOFING:
+
+FIREWALL/IDS EVASION AND SPOOFING: 高級技術 ==> 規避防火牆與入侵偵測系統及欺騙技術 
   -f; --mtu <val>: fragment packets (optionally w/given MTU)
   -D <decoy1,decoy2[,ME],...>: Cloak a scan with decoys
-  -S <IP_Address>: Spoof source address
+  -S <IP_Address>: Spoof source address  ==> 偽造來源IP {用假IP去掃描}  
   -e <iface>: Use specified interface
   -g/--source-port <portnum>: Use given port number
   --proxies <url1,[url2],...>: Relay connections through HTTP/SOCKS4 proxies
@@ -105,7 +108,9 @@ FIREWALL/IDS EVASION AND SPOOFING:
   --ttl <val>: Set IP time-to-live field
   --spoof-mac <mac address/prefix/vendor name>: Spoof your MAC address
   --badsum: Send packets with a bogus TCP/UDP/SCTP checksum
-OUTPUT:
+
+
+OUTPUT:輸出技術
   -oN/-oX/-oS/-oG <file>: Output scan in normal, XML, s|<rIpt kIddi3,
      and Grepable format, respectively, to the given filename.
   -oA <basename>: Output in the three major formats at once
@@ -120,7 +125,9 @@ OUTPUT:
   --stylesheet <path/URL>: XSL stylesheet to transform XML output to HTML
   --webxml: Reference stylesheet from Nmap.Org for more portable XML
   --no-stylesheet: Prevent associating of XSL stylesheet w/XML output
-MISC:
+
+
+MISC: 其他技術
   -6: Enable IPv6 scanning
   -A: Enable OS detection, version detection, script scanning, and traceroute
   --datadir <dirname>: Specify custom Nmap data file location
@@ -129,7 +136,8 @@ MISC:
   --unprivileged: Assume the user lacks raw socket privileges
   -V: Print version number
   -h: Print this help summary page.
-EXAMPLES:
+
+EXAMPLES:範例
   nmap -v -A scanme.nmap.org
   nmap -v -sn 192.168.0.0/16 10.0.0.0/8
   nmap -v -iR 10000 -Pn -p 80
