@@ -7,6 +7,7 @@ https://www.tenlong.com.tw/search?utf8=%E2%9C%93&keyword=nmap
 map -h
 Nmap 7.91 ( https://nmap.org )
 Usage: nmap [Scan Type(s)] [Options] {target specification}
+
 TARGET SPECIFICATION:
   Can pass hostnames, IP addresses, networks, etc.
   Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
@@ -14,7 +15,9 @@ TARGET SPECIFICATION:
   -iR <num hosts>: Choose random targets
   --exclude <host1[,host2][,host3],...>: Exclude hosts/networks
   --excludefile <exclude_file>: Exclude list from file
-HOST DISCOVERY:
+
+
+HOST DISCOVERY:主機發現
   -sL: List Scan - simply list targets to scan
   -sn: Ping Scan - disable port scan
   -Pn: Treat all hosts as online -- skip host discovery
@@ -25,7 +28,9 @@ HOST DISCOVERY:
   --dns-servers <serv1[,serv2],...>: Specify custom DNS servers
   --system-dns: Use OS's DNS resolver
   --traceroute: Trace hop path to each host
-SCAN TECHNIQUES:
+
+
+SCAN TECHNIQUES:掃描技術
   -sS/sT/sA/sW/sM: TCP SYN/Connect()/ACK/Window/Maimon scans
   -sU: UDP Scan
   -sN/sF/sX: TCP Null, FIN, and Xmas scans
@@ -34,7 +39,8 @@ SCAN TECHNIQUES:
   -sY/sZ: SCTP INIT/COOKIE-ECHO scans
   -sO: IP protocol scan
   -b <FTP relay host>: FTP bounce scan
-PORT SPECIFICATION AND SCAN ORDER:
+
+PORT SPECIFICATION AND SCAN ORDER(掃描順序):
   -p <port ranges>: Only scan specified ports
     Ex: -p22; -p1-65535; -p U:53,111,137,T:21-25,80,139,8080,S:9
   --exclude-ports <port ranges>: Exclude the specified ports from scanning
@@ -42,13 +48,19 @@ PORT SPECIFICATION AND SCAN ORDER:
   -r: Scan ports consecutively - don't randomize
   --top-ports <number>: Scan <number> most common ports
   --port-ratio <ratio>: Scan ports more common than <ratio>
-SERVICE/VERSION DETECTION:
+
+SERVICE/VERSION DETECTION:(服務及版本偵測)
   -sV: Probe open ports to determine service/version info
   --version-intensity <level>: Set from 0 (light) to 9 (try all probes)
   --version-light: Limit to most likely probes (intensity 2)
   --version-all: Try every single probe (intensity 9)
   --version-trace: Show detailed version scan activity (for debugging)
-SCRIPT SCAN:
+
+
+SCRIPT SCAN:(使用腳本程式掃描)
+  參考網址:https://nmap.org/nsedoc/
+      範例1: smb-vuln-ms08-067  ==> https://nmap.org/nsedoc/scripts/smb-vuln-ms08-067.html
+      範例2: smb-vuln-ms17-010  ==> https://nmap.org/nsedoc/scripts/smb-vuln-ms17-010.html    
   -sC: equivalent to --script=default
   --script=<Lua scripts>: <Lua scripts> is a comma separated list of
            directories, script-files or script-categories
@@ -59,6 +71,9 @@ SCRIPT SCAN:
   --script-help=<Lua scripts>: Show help about scripts.
            <Lua scripts> is a comma-separated list of script-files or
            script-categories.
+
+
+
 OS DETECTION:
   -O: Enable OS detection
   --osscan-limit: Limit OS detection to promising targets
