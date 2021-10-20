@@ -1,7 +1,7 @@
-#
+# 參考書籍
 
 - [Mastering Metasploit - Fourth Edition(2020)](https://www.packtpub.com/product/mastering-metasploit-fourth-edition/9781838980078)
-
+- [Web 滲透測試實戰：基於 Metasploit 5.0 ](https://www.tenlong.com.tw/products/9787111686279)
 
 
 
