@@ -1,4 +1,5 @@
 #
+- [TCP/IP 與 Internet 網路：第十三章 網域名稱系統](http://www.tsnien.idv.tw/Internet_WebBook/chap13/13-0%20%e7%bf%92%e9%a1%8c.html)
 
 ### DNS message format
 
