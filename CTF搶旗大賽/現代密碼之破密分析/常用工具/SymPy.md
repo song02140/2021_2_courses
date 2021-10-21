@@ -6,6 +6,7 @@
 - SymPy支持符號計算、高精度計算、模式匹配、繪圖、解方程、微積分、組合數學、離散數學、幾何學、概率與統計、物理學等方面的功能
 
 - [官方網址](https://github.com/sympy/sympy)
+- [SymPy’s documentation](https://docs.sympy.org/latest/index.html)
 
 ## Google Colab的環境建置
 ```
@@ -66,6 +67,7 @@ dsolve(Eq(Derivative(y(t), t) -3*y(t), 2), y(t))
 - [SymPy: Symbolic Computation in Python](https://towardsdatascience.com/sympy-symbolic-computation-in-python-f05f1413adb8)
 - [SymPy：使用 Python 幫你導煩人的數學公式](https://blog.gtwang.org/useful-tools/sympy-python-library-for-symbolic-mathematics/#google_vignette)
 
+
 ## 在colab寫出漂漂亮亮的數學公式
 
 https://colab.research.google.com/notebooks/markdown_guide.ipynb
@@ -74,3 +76,11 @@ https://colab.research.google.com/notebooks/markdown_guide.ipynb
 - [Learn How to Write Markdown & LaTeX in The Jupyter Notebook](https://towardsdatascience.com/write-markdown-latex-in-the-jupyter-notebook-10985edb91fd)
 - [markdown cheat-sheet](https://www.markdownguide.org/cheat-sheet/)
 - [Google Colab-使用LaTeX和Markdown](https://www.youtube.com/watch?v=wsXG_2W84ck)
+
+
+* [Github Markdown basics](https://help.github.com/articles/markdown-basics/)
+* [Github flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
+* [Original Markdown spec: Syntax](http://daringfireball.net/projects/markdown/syntax)
+* [Original Markdown spec: Basics](http://daringfireball.net/projects/markdown/basics)
+* [marked.js library used by Colab](https://github.com/chjj/marked)
+* [LaTex mathematics for equations](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
