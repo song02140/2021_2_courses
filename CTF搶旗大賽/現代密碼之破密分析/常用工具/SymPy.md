@@ -5,6 +5,7 @@
 - 它完全由Python寫成，不依賴於外部庫。 
 - SymPy支持符號計算、高精度計算、模式匹配、繪圖、解方程、微積分、組合數學、離散數學、幾何學、概率與統計、物理學等方面的功能
 
+- [官方網址](https://github.com/sympy/sympy)
 
 ## Google Colab的環境建置
 ```
@@ -21,6 +22,7 @@ mod_inverse(11, 35) # returns 16  ==> 11*16 mod 35 =1
 ```
 
 ## 範例練習2:微積分
+- [參考超讚的SymPy Tutorial學習](https://docs.sympy.org/latest/tutorial/index.html) 
 
 ### 不定積分
 ```
@@ -62,7 +64,7 @@ dsolve(Eq(Derivative(y(t), t) -3*y(t), 2), y(t))
 - [Markdown Cheat Sheet](https://zh.wikipedia.org/wiki/SymPy)
 - [Python 符號運算套件：SymPy](http://keejko.blogspot.com/2018/11/python-sympy.html)
 - [SymPy: Symbolic Computation in Python](https://towardsdatascience.com/sympy-symbolic-computation-in-python-f05f1413adb8)
-
+- [SymPy：使用 Python 幫你導煩人的數學公式](https://blog.gtwang.org/useful-tools/sympy-python-library-for-symbolic-mathematics/#google_vignette)
 
 ## 在colab寫出漂漂亮亮的數學公式
 
