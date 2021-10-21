@@ -3,8 +3,9 @@
 - [Hypertext Transfer Protocol (HTTP)](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 - [超文本傳輸協定](https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
   - HTTP是一種用於分佈式、協作式和超媒體訊息系統的`應用層`協定
-
-
+  - [HTTP 1.1](https://datatracker.ietf.org/doc/html/rfc2616) 1999年6月公佈的 RFC 2616，定義了HTTP協定中現今廣泛使用的一個版本——HTTP 1.1
+  - [RFC 6585 :Additional HTTP Status Codes(2012)](https://datatracker.ietf.org/doc/html/rfc6585)
+  - [HTTP/2標準於2015年5月以RFC 7540正式發表，取代HTTP 1.1成為HTTP的實作標準](https://datatracker.ietf.org/doc/html/rfc7540)
 
 
 
@@ -24,6 +25,8 @@
 
 ### [HTTP Request method請求方法](https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
 
+- HTTP/1.1協定中共定義了八種方法（也叫「動作」）來以不同方式操作指定的資源：
+
 |方法 | 說明 |
 | -------|  -------|
 |GET|使用GET方法應該只用在讀取資料|
@@ -35,6 +38,8 @@
 |OPTIONS|這個方法可使伺服器傳回該資源所支援的所有HTTP請求方法。|
 |CONNECT|HTTP/1.1協定中預留給能夠將連接改為隧道方式的代理伺服器。通常用於SSL加密伺服器的連結（經由非加密的HTTP代理伺服器）。|
 
+- HTTP伺服器至少應該實作GET和HEAD方法，其他方法都是可選的
+- 特定的HTTP伺服器還能夠擴充自訂的方法 ==> [PATCH（RFC 5789 指定的方法）](https://datatracker.ietf.org/doc/html/rfc5789)用於將局部修改應用到資源
 
 ## HTTP Response
 
