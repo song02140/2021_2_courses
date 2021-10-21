@@ -27,6 +27,23 @@ mod_inverse(11, 35) # returns 16  ==> 11*16 mod 35 =1
 ```
 
 ## 範例練習2:微積分
+
+### 不定積分
+```
+import math
+from sympy import *                                                                                              
+x = symbols('x')
+integrate(exp(2*x), x)
+```
+## 定積分
+```
+import math
+from sympy import *                                                                                              
+x = symbols('x')
+integrate(exp(2*x), (x, 0, 1))
+```
+
+## 複雜的積分
 ```python
 from sympy import init_printing, integrate, log, sqrt, symbols
 init_printing()
