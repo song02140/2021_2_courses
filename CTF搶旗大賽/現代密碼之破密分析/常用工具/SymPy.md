@@ -10,14 +10,7 @@
 !pip install sympy
 ```
 
-## 在colab寫出漂漂亮亮的數學公式
 
-https://colab.research.google.com/notebooks/markdown_guide.ipynb
-
-- [tudev/Workshops-2020-2021](https://github.com/tudev/Workshops-2020-2021)
-- [Learn How to Write Markdown & LaTeX in The Jupyter Notebook](https://towardsdatascience.com/write-markdown-latex-in-the-jupyter-notebook-10985edb91fd)
-- [markdown cheat-sheet](https://www.markdownguide.org/cheat-sheet/)
-- [Google Colab-使用LaTeX和Markdown](https://www.youtube.com/watch?v=wsXG_2W84ck)
 
 ## 範例練習1:非常重要的 mod inverse計算
 
@@ -54,8 +47,27 @@ f = (x ** 2 + 2 * x + 1 + (3 * x + 1) * g) / (x * g * (x + g))
 f
 ```
 
+## 解工程數學的 常微分方程式(ODE: Ordinary Differential Equation)
+```python
+from sympy import *                                                                                       
+t = symbols('t')
 
+y = Function('y')
+dsolve(Eq(Derivative(y(t), t) -3*y(t), 2), y(t))
+```
 ## 參考資料
 
+- [清華大學Programming Basics and Math Python](http://web.ntnu.edu.tw/~tsungwu/Python_DevOps/Part1_Basics&Math/section5_integration.html)
 - [Markdown Cheat Sheet](https://zh.wikipedia.org/wiki/SymPy)
 - [Python 符號運算套件：SymPy](http://keejko.blogspot.com/2018/11/python-sympy.html)
+- [SymPy: Symbolic Computation in Python](https://towardsdatascience.com/sympy-symbolic-computation-in-python-f05f1413adb8)
+
+
+## 在colab寫出漂漂亮亮的數學公式
+
+https://colab.research.google.com/notebooks/markdown_guide.ipynb
+
+- [tudev/Workshops-2020-2021](https://github.com/tudev/Workshops-2020-2021)
+- [Learn How to Write Markdown & LaTeX in The Jupyter Notebook](https://towardsdatascience.com/write-markdown-latex-in-the-jupyter-notebook-10985edb91fd)
+- [markdown cheat-sheet](https://www.markdownguide.org/cheat-sheet/)
+- [Google Colab-使用LaTeX和Markdown](https://www.youtube.com/watch?v=wsXG_2W84ck)
