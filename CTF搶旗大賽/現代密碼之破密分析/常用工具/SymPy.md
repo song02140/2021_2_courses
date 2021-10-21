@@ -17,11 +17,22 @@ https://colab.research.google.com/notebooks/markdown_guide.ipynb
 - [Learn How to Write Markdown & LaTeX in The Jupyter Notebook](https://towardsdatascience.com/write-markdown-latex-in-the-jupyter-notebook-10985edb91fd)
 - [](https://www.markdownguide.org/cheat-sheet/)
 
-## 範例練習1
+## 範例練習1:非常重要的 mod inverse計算
 
 ```
 from sympy import mod_inverse
 mod_inverse(11, 35) # returns 16  ==> 11*16 mod 35 =1
+```
+
+## 範例練習2:微積分
+```python
+from sympy import init_printing, integrate, log, sqrt, symbols
+init_printing()
+
+x = symbols('x')
+g = sqrt(x + log(x))
+f = (x ** 2 + 2 * x + 1 + (3 * x + 1) * g) / (x * g * (x + g))
+f
 ```
 
 
