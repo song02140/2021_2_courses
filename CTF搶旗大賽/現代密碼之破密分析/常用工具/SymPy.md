@@ -10,11 +10,21 @@
 !pip install sympy
 ```
 
-- 在colab寫出漂漂亮亮的數學公式
+## 在colab寫出漂漂亮亮的數學公式
+
 https://colab.research.google.com/notebooks/markdown_guide.ipynb
 
-## 範例練習
+- [Learn How to Write Markdown & LaTeX in The Jupyter Notebook](https://towardsdatascience.com/write-markdown-latex-in-the-jupyter-notebook-10985edb91fd)
+
+## 範例練習1
+
 ```
 from sympy import mod_inverse
-mod_inverse(11, 35) # returns 16
+mod_inverse(11, 35) # returns 16  ==> 11*16 mod 35 =1
 ```
+
+
+## 參考資料
+
+- [](https://zh.wikipedia.org/wiki/SymPy)
+- [Python 符號運算套件：SymPy](http://keejko.blogspot.com/2018/11/python-sympy.html)
