@@ -14,8 +14,9 @@
 
 https://colab.research.google.com/notebooks/markdown_guide.ipynb
 
+- [tudev/Workshops-2020-2021](https://github.com/tudev/Workshops-2020-2021)
 - [Learn How to Write Markdown & LaTeX in The Jupyter Notebook](https://towardsdatascience.com/write-markdown-latex-in-the-jupyter-notebook-10985edb91fd)
-- [](https://www.markdownguide.org/cheat-sheet/)
+- [markdown cheat-sheet](https://www.markdownguide.org/cheat-sheet/)
 
 ## 範例練習1:非常重要的 mod inverse計算
 
