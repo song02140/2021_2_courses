@@ -9,11 +9,16 @@ Follow TCP/UDP/SSL stream
 
 ## 分析重點
 
-- [連線順序]()
-- DNS查詢
+### 連線順序分析
+  - DNS查詢
+  - TCP three-way handshake
+  - HTTP request /response
+
+### 各種封包格式分析
 - DNS封包分析
 - UDP封包分析
-- TCPthree-way handshake
-- TCP封包分析 
 - HTTP封包分析
+- TCP封包分析 
 - IP 封包分析
+
+
