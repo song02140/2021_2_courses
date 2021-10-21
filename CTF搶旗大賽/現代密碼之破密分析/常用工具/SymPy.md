@@ -15,6 +15,7 @@
 https://colab.research.google.com/notebooks/markdown_guide.ipynb
 
 - [Learn How to Write Markdown & LaTeX in The Jupyter Notebook](https://towardsdatascience.com/write-markdown-latex-in-the-jupyter-notebook-10985edb91fd)
+- [](https://www.markdownguide.org/cheat-sheet/)
 
 ## 範例練習1
 
@@ -26,5 +27,5 @@ mod_inverse(11, 35) # returns 16  ==> 11*16 mod 35 =1
 
 ## 參考資料
 
-- [](https://zh.wikipedia.org/wiki/SymPy)
+- [Markdown Cheat Sheet](https://zh.wikipedia.org/wiki/SymPy)
 - [Python 符號運算套件：SymPy](http://keejko.blogspot.com/2018/11/python-sympy.html)
