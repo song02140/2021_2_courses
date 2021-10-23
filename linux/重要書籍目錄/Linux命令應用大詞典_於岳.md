@@ -1,6 +1,10 @@
-# [Linux命令應用大詞典於岳](https://www.tenlong.com.tw/products/9787115401519)
+# [Linux命令應用大詞典_於岳](https://www.tenlong.com.tw/products/9787115401519)
 
-
+```
+網路上有各種指令
+ifcfg命令--Linux命令应用大词典729个命令解读 原创
+https://blog.51cto.com/airfish2000/1894366
+```
 ```
 第1章  登錄、退出、關機和重啟
 第2章  獲取幫助
