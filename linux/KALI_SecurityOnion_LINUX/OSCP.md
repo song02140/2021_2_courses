@@ -506,15 +506,16 @@
 21.5.2 Domain Controller Synchronization
 21.6 Wrapping Up
 ```
-##
+## 22 The Metasploit Framework
 ```
-22 The Metasploit Framework
 22.1 Metasploit User Interfaces and Setup
 22.1.1 Getting Familiar with MSF Syntax
 22.1.2 Metasploit Database Access
 22.1.3 Auxiliary Modules
+
 22.2 Exploit Modules
 22.2.1 SyncBreeze Enterprise
+
 22.3 Metasploit Payloads
 22.3.1 Staged vs Non-Staged Payloads
 22.3.2 Meterpreter Payloads
@@ -523,12 +524,15 @@
 22.3.5 Metasploit Exploit Multi Handler
 22.3.6 Client-Side Attacks
 22.3.7 Advanced Features and Transports
+
 22.4 Building Our Own MSF Module
+
 22.5 Post-Exploitation with Metasploit
 22.5.1 Core Post-Exploitation Features
 22.5.2 Migrating Processes
 22.5.3 Post-Exploitation Modules
 22.5.4 Pivoting with the Metasploit Framework
+
 22.6 Metasploit Automation
 22.7 Wrapping Up
 ```
