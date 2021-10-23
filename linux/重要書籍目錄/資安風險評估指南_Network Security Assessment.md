@@ -1,15 +1,12 @@
-#
+# [資安風險評估指南 (Network Security Assessment, 3/e)](https://www.tenlong.com.tw/products/9789864765478)
 ```
 資安風險評估指南 (Network Security Assessment, 3/e)
 Chris McNab 著、江湖海 譯
-資安風險評估指南 (Network Security Assessment, 3/e)
-預覽內頁
-出版商:
+
 歐萊禮
 出版日期:
 2017-09-07
-定價:
-$780
+
 
 從駭客的角度思考，找出系統潛藏的漏洞
 
