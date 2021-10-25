@@ -7,12 +7,15 @@
       - 網路協定的攻擊模式分析
         - DNS 的攻擊模式分析
         - NTP 的攻擊模式分析
-      - 
-    - 安全的網路協定
+      - 著名的網路攻擊模式分析
+        - DDOS
+        - 社交工程 
+    - 安全的網路技術與協定
       - 應用層
         - https ==> SSL/TLS
         - sftp ftps
         - DNSsec
+        - email 安全
       - 網路層
         - IPsec
       - 安全連線
@@ -24,8 +27,8 @@
         - 
 
   - 1-2.通訊安全
-    - 無線網路
-    - 無線網路安全
+    - 無線區域網路(WLAN)
+    - 無線區域網路安全
       - Fake AP
       - 攻擊WEP
       - 攻擊WPA
@@ -34,17 +37,63 @@
 
 - 2.作業系統與應用程式安全
   - 2-1.作業系統安全
+    - windows 作業系統
+    - windows 作業系統常用指令
+    - windows 作業系統管理與安全工具
+      - task manager
+      - event viewer
+      - systeminternals 
+    - windows 攻擊手法: 
+      - Windows binary exploitation 
+      - Windows Kernel exploitation
+    - LINUX 作業系統
+    - LINUX 作業系統常用指令
+    - LINUX 作業系統管理與安全工具
+    - LINUX 攻擊手法: 
+      - Linux binary exploitation 
+      - Linux Kernel exploitation
+      
   - 2-2.作業系統與應用程式 (含資料庫與網頁)攻擊手法
+    - 網站安全
+    - OWASP TOP 10
+    - OWASP API TOP 10
+    - 網站安全測試 
+    - 資料庫
+      - SQL資料庫
+      - NOSQL資料庫  
+    - 資料庫的攻擊事件
+    - 資料庫的攻擊手法
+    - 資料庫的安全防護
   - 2-3.程式與開發安全
+    - 應用程式的安全威脅
+      - 逆向工程
+    - 安全程式開發(secure code standard)
+    - 開發安全與SSDLC
 
 
 - 3.資安維運技術
   - 3-1.惡意程式防護與弱點管理
+    -  各種惡意程式(malware)
+       - 勒索軟體
+       - 網站木馬
+       - 蠕蟲(worm) 
+    - 惡意程式分析(malware analysis)
+       - 靜態分析
+       - 動態分析
+    -  惡意程式防護
+    -  弱點與弱點資料庫
+    -  弱點嚴重性 CVSS
+    -  弱點管理
   - 3-2.資料安全及備份管理
   - 3-3.日誌管理
 
 - 4.新興科技安全
   - 4-1.雲端安全概論
+    - 雲端運算定義
+    - 雲端安全
   - 4-2.行動裝置安全概論
+    - OWASP MOBILE TOP 10 
   - 4-3.物聯網安全概論
+    - 物聯網(IOT)
+    - OWASP IOT TOP 10  
 
