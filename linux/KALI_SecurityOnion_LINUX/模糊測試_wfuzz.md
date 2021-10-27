@@ -1,3 +1,7 @@
+#
+
+- [webFuzz: Grey-Box Fuzzing for Web Applications](European Symposium on Research in Computer Security ESORICS 2021: Computer Security – ESORICS 2021 pp 152-172)
+
 
 # wfuzz
 
@@ -8,7 +12,8 @@
   - 介面 可處理BurpSuite所抓的請求和響應報文
   - 可執行 `請求(http request)`引數類的模糊測試 
   - Web目錄掃描(web directory travel|list)。
-
+- [](https://sectools.tw/wfuzz/)
+- [WFUZZ使用教程](https://www.twblogs.net/a/5c8e8a3cbd9eee35cd6b1462)
 ## 簡單測試
 ```
 wfuzz -w 字典 位址
