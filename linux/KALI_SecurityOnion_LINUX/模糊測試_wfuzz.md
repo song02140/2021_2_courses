@@ -54,8 +54,39 @@ Available payloads:
   hexrange        | 獲得指定範圍內的每一個hex值                                   
   iprange         | 獲得指定IP範圍內的IP地址清單                                 
   burpstate       | 從BurpSuite的狀態下獲得測試結果
+```
+
+## wfuzz -e encoders
+```
+Available encoders:
+  Category      | Name                      | Summary                                                                           
+------------------------------------------------------------------------------------------------------------------------
+  url_safe, url | urlencode                 | 用`%xx`的方式替換特殊字元， 字母/數字/下劃線/半形點/減號不替換
+  url_safe, url | double urlencode             | 用`%25xx`的方式替換特殊字元， 字母/數字/下劃線/半形點/減號不替換
+  url              | uri_double_hex            | 用`%25xx`的方式將所有字元進行編碼
+  html          | html_escape                | 將`&`，`<`，`>`轉換為HTML安全的字元
+  html            | html_hexadecimal             | 用 `&#xx;` 的方式替換所有字元
+  hashes         | base64                    | 將給定的字串中的所有字元進行base64編碼
+  url             | doble_nibble_hex             | 將所有字元以`%%dd%dd`格式進行編碼
+  db             | mssql_char                | 將所有字元轉換為MsSQL語法的`char(xx)`形式
+  url             | utf8                        | 將所有字元以`\u00xx` 格式進行編碼
+  hashes         | md5                         | 將給定的字串進行md5加密
+  default         | random_upper                | 將字串中隨機字元變為大寫
+  url             | first_nibble_hex          | 將所有字元以`%%dd?` 格式進行編碼
+  default         | hexlify                    | 每個資料的單個位元轉換為兩個位元表示的hex表示
+  url             | second_nibble_hex         | 將所有字元以`%?%dd` 格式進行編碼
+  url             | uri_hex                     | 將所有字元以`%xx` 格式進行編碼
+  default         | none                         | 不進行任何編碼
+  hashes         | sha1                        | 將字串進行sha1加密
+  url             | utf8_binary                | 將字串中的所有字元以 `\uxx` 形式進行編碼
+  url             | uri_triple_hex             | 將所有字元以`%25%xx%xx` 格式進行編碼
+  url             | uri_unicode                | 將所有字元以`%u00xx` 格式進行編碼
+  html             | html_decimal                | 將所有字元以 `&#dd; ` 格式進行編碼
+  db             | oracle_char                | 將所有字元轉換為Oracle語法的`chr(xx)`形式
+  db             | mysql_char                 | 將所有字元轉換為MySQL語法的`char(xx)`形式
 
 ```
+
 ## 
 ```
 ┌──(kali㉿kali)-[/usr/bin]
