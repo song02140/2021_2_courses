@@ -86,6 +86,42 @@ Available encoders:
   db             | mysql_char                 | 將所有字元轉換為MySQL語法的`char(xx)`形式
 
 ```
+## wfuzz -e scripts
+```
+Available scripts:
+  Category                   | Name          | Summary
+----------------------------------------------------------------------------------------------------
+  default, passive           | cookies       | 查詢新的cookies
+  default, passive           | errors        | 查詢錯誤資訊
+  passive                    | grep          | HTTP response grep
+  active                     | screenshot    | 用linux cutycapt tool 進行螢幕抓取 
+  default, active, discovery | links         | 解析HTML並查詢新的內容
+  default, active, discovery | wc_extractor  | 解析subversion的wc.db檔案
+  default, passive           | listing       | 查詢列目錄漏洞
+  default, passive           | title         | 解析HTML頁面的title
+  default, active, discovery | robots        | 解析robots.txt檔案來查詢新內容
+  default, passive           | headers       | 查詢伺服器的返回頭
+  default, active, discovery | cvs_extractor | 解析 CVS/Entries 檔案
+  default, active, discovery | svn_extractor | 解析 .svn/entries 檔案
+  active, discovery          | backups       | 查詢已知的備份檔名
+  default, active, discovery | sitemap       | 解析 sitemap.xml 檔案
+```
+##
+```
+Usage:  wfuzz [options] -z payload,params <url>
+
+        FUZZ, ..., FUZnZ  wherever you put these keywords wfuzz will replace them with the values of the specified payload.
+        FUZZ{baseline_value} FUZZ will be replaced by baseline_value. It will be the first request performed and could be used as a base for filtering.
+
+
+Examples:
+        wfuzz -c -z file,users.txt -z file,pass.txt --sc 200 http://www.site.com/log.asp?user=FUZZ&pass=FUZ2Z
+        wfuzz -c -z range,1-10 --hc=BBB http://www.site.com/FUZZ{something not there}
+        wfuzz --script=robots -z list,robots.txt http://www.webscantest.com/FUZZ
+
+Type wfuzz -h for further information or --help for advanced usage.
+ /usr/lib/python3/dist-packages/wfuzz/wfuzz.py:78: UserWarning:Fatal exception: Unknown category. Valid values are: payloads, encoders, iterators, printers or scripts.
+```
 
 ## 
 ```
