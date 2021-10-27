@@ -9,8 +9,12 @@
 - [Kali Linux 高級滲透測試, 3/e (Mastering Kali Linux for Advanced Penetration Testing)(2020)](https://www.tenlong.com.tw/products/9787111659471)
 - [網絡安全與攻防策略：現代威脅應對之道（原書第2版） Cybersecurity - Attack and Defense Strategies](https://www.tenlong.com.tw/products/9787111679257)
 
+##
 - [METASPLOIT UNLEASHED](https://www.offensive-security.com/metasploit-unleashed/)
+- [The Ultimate Command Cheat Sheet for Metasploit's Meterpreter](https://null-byte.wonderhowto.com/how-to/hack-like-pro-ultimate-command-cheat-sheet-for-metasploits-meterpreter-0149146/)
 
+##
+- [How to Use Metasploit's Psexec to Hack Without Leaving Evidence](https://null-byte.wonderhowto.com/how-to/hack-like-pro-use-metasploits-psexec-hack-without-leaving-evidence-0149027/)
 ##
 ```
 msf6 > help
