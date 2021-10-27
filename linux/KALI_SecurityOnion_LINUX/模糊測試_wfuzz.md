@@ -12,8 +12,7 @@
   - 介面 可處理BurpSuite所抓的請求和響應報文
   - 可執行 `請求(http request)`引數類的模糊測試 
   - Web目錄掃描(web directory travel|list)。
-- [https://sectools.tw/wfuzz/](https://sectools.tw/wfuzz/)
-- [WFUZZ使用教程](https://www.twblogs.net/a/5c8e8a3cbd9eee35cd6b1462)
+
 ## 簡單測試
 ```
 wfuzz -w 字典 位址
@@ -27,7 +26,8 @@ wfuzz -w 字典 位址
 
 ## 模組架構
 - [Wfuzz初上手](https://www.gushiciku.cn/pl/2sgl/zh-tw)
-- []()
+- [https://sectools.tw/wfuzz/](https://sectools.tw/wfuzz/)
+- [WFUZZ使用教程](https://www.twblogs.net/a/5c8e8a3cbd9eee35cd6b1462)
 ```
 5種類型分別是： 
 payloads 
