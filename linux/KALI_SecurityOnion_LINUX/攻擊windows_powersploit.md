@@ -27,6 +27,7 @@ NTLM authentication:
 - Obtain NT/LM hashes from memory (from interactive logons, services, remote desktop connections, etc.) which can be used to authenticate to other systems. WCE can perform this task without injecting code, just by reading and decrypting information stored in Windows internal memory structures. 
 - It also has the capability to automatically switch to code injection when the aforementioned method cannot be performed.
 
+- [Post Exploitation With Windows Credentials Editor (WCE) - Dump Windows Password Hashes](https://www.youtube.com/watch?v=u0RppDmw1So)
 #
 ```
 ┌──(kali㉿kali)-[/usr/bin]
