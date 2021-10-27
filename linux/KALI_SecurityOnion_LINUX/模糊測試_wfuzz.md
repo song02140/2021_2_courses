@@ -106,7 +106,7 @@ Available scripts:
   active, discovery          | backups       | 查詢已知的備份檔名
   default, active, discovery | sitemap       | 解析 sitemap.xml 檔案
 ```
-##
+## wfuzz -e printer
 ```
 Usage:  wfuzz [options] -z payload,params <url>
 
@@ -122,7 +122,20 @@ Examples:
 Type wfuzz -h for further information or --help for advanced usage.
  /usr/lib/python3/dist-packages/wfuzz/wfuzz.py:78: UserWarning:Fatal exception: Unknown category. Valid values are: payloads, encoders, iterators, printers or scripts.
 ```
+## wfuzz -e iterators
+```
+ /usr/lib/python3/dist-packages/wfuzz/__init__.py:34: UserWarning:Pycurl is not compiled against Openssl. Wfuzz might not work correctly when fuzzing SSL sites. Check Wfuzz's documentation for more information.
 
+Available iterators:
+
+  Name    | Summary                                                                           
+----------------------------------------------------------------------------------------------
+  chain   | Returns an iterator returns elements from the first iterable until it is exhaust  
+          | ed, then proceeds to the next iterable, until all of the iterables are exhausted  
+          | .                                                                                 
+  product | Returns an iterator cartesian product of input iterables.                         
+  zip     | Returns an iterator that aggregates elements from each of the iterables.
+```
 ## 
 ```
 ┌──(kali㉿kali)-[/usr/bin]
