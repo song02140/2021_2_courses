@@ -28,7 +28,10 @@ NTLM authentication:
 - It also has the capability to automatically switch to code injection when the aforementioned method cannot be performed.
 
 - [Post Exploitation With Windows Credentials Editor (WCE) - Dump Windows Password Hashes](https://www.youtube.com/watch?v=u0RppDmw1So)
-#
+- [Kali Linux渗透测试之提权（二）——WCE、Fgdump、Mimikatz](https://blog.csdn.net/qq_38684504/article/details/89481147)
+
+
+# powersploit
 ```
 ┌──(kali㉿kali)-[/usr/bin]
 └─$ powersploit         
