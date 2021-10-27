@@ -4,10 +4,10 @@
 - wfuzz 是一款Python開發的Web安全模糊測試工具。
 - [官方網址https://github.com/xmendez/wfuzz ](https://github.com/xmendez/wfuzz)
 - 功能特點
-- 模組化 框架 可編寫外掛
-- 介面 可處理BurpSuite所抓的請求和響應報文
-- 做 `請求(http request)`引數類的模糊測試 
-- Web目錄掃描(web directory travel|list)。
+  - 模組化 框架 可編寫外掛
+  - 介面 可處理BurpSuite所抓的請求和響應報文
+  - 可執行 `請求(http request)`引數類的模糊測試 
+  - Web目錄掃描(web directory travel|list)。
 
 ## 簡單測試
 ```
