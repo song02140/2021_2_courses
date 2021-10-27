@@ -24,6 +24,36 @@ wfuzz -w 字典 位址
 - [Wfuzz初上手](https://www.gushiciku.cn/pl/2sgl/zh-tw)
 - []()
 ```
+5種類型分別是： 
+payloads 
+encoders 
+iterators 
+printers 
+scripts
+```
+## wfuzz -e payloads
+```
+Available payloads:
+  Name            | Summary                                                                           
+------------------------------------------------------------------------------------------------------
+  guitab          | 從視覺化的標籤欄中讀取請求                                
+  dirwalk         | 遞迴獲得本地某個資料夾中的檔名                            
+  file            | 獲取一個檔案當中的每個詞                                                    
+  autorize        | 獲取autorize的測試結果Returns fuzz results' from autororize.                                            
+  wfuzzp          | 從之前儲存的wfuzz會話中獲取測試結果的URL                   
+  ipnet           | 獲得一個指定網路的IP地址清單                                        
+  bing            | 獲得一個使用bing API搜尋的URL清單 (需要 api key).                   
+  stdin           | 獲得從標準輸入中的條目                                                
+  list            | 獲得一個清單中的每一個元素，清單用以 - 符號分格                       
+  hexrand         | 從一個指定的範圍中隨機獲取一個hex值                                  
+  range           | 獲得指定範圍內的每一個數值                                          
+  names           | 從一個以 - 分隔的列表中，獲取以組合方式生成的所有usernames值
+  burplog         | 從BurpSuite的記錄中獲得測試結果                                             
+  permutation     | 獲得一個在指定charset和length時的字元組合                             
+  buffer_overflow | 獲得一個包含指定個數個A的字串.                    
+  hexrange        | 獲得指定範圍內的每一個hex值                                   
+  iprange         | 獲得指定IP範圍內的IP地址清單                                 
+  burpstate       | 從BurpSuite的狀態下獲得測試結果
 
 ```
 ## 
