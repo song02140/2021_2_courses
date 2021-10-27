@@ -39,6 +39,7 @@
 1.9.1 Metasploit Usage - Lab vs Exam
 1.10 Wrapping Up
 ```
+## 2 Getting Comfortable with Kali Linux
 ```
 2 Getting Comfortable with Kali Linux
 2.1 Booting Up Kali Linux
@@ -71,8 +72,9 @@
 2.6.6 dpkg
 2.7 Wrapping Up
 ```
+
+## 3 Command Line Fun
 ```
-3 Command Line Fun
 3.1 The Bash Environment
 3.1.1 Environment Variables
 3.1.2 Tab Completion
@@ -121,8 +123,9 @@
 3.9.3 Persistent Bash Customization
 3.10 Wrapping Up
 ```
+
+## 4 Practical Tools
 ```
-4 Practical Tools
 4.1 Netcat
 4.1.1 Connecting to a TCP/UDP Port
 4.1.2 Listening on a TCP/UDP Port
@@ -160,6 +163,8 @@
 
 4.6 Wrapping Up
 ```
+
+## 5 Bash Scripting
 ```
 5 Bash Scripting
 5.1 Intro to Bash Scripting
@@ -182,9 +187,8 @@
 
 5.8 Wrapping Up
 ```
-
+## 6 Passive Information Gathering
 ```
-6 Passive Information Gathering
 6.1 Taking Notes
 6.2 Website Recon
 6.3 Whois Enumeration
