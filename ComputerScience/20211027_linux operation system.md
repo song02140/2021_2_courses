@@ -14,6 +14,8 @@
 - cat flag
 
 ## linux-2
+ 
+ - Question: Find the hidden file and flag?  
 
 
 
