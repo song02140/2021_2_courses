@@ -49,6 +49,8 @@
     - windows server技術:[官方網站](https://docs.microsoft.com/en-us/windows-server/)
       - Active Directory(AD) ==> LDAP
       - Group Policy(GP)
+    - [Windows security眾多文件] (https://docs.microsoft.com/en-us/windows/security/)
+      - [Security and Protection(舊版)](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831778(v=ws.11)) 
     - windows 攻擊手法: 
       - Windows binary exploitation 
       - Windows Kernel exploitation
