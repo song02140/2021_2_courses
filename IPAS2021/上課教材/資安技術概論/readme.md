@@ -14,7 +14,7 @@
       - 應用層
         - https ==> SSL/TLS
         - sftp ftps
-        - 
+        - telnet ==> ssh
         - DNSsec
         - email 安全
       - 網路層
