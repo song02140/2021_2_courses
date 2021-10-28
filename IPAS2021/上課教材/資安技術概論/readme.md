@@ -95,9 +95,38 @@
     -  弱點與弱點資料庫
     -  弱點嚴重性 CVSS
     -  弱點管理
+       - 弱點掃描(Vulnerability Assessment)
+       - 網站弱點掃描
+       - 系統弱點掃描
   - 3-2.資料安全及備份管理
+    - 資料安全(data security)
+      - 資料外洩
+    - 備份管理
+      - 資料備份方式:
+        - 完全備份(Full Backup) 
+        - 差異備份(Differential Backup)  
+        - 增量備份(Incremental Backup)
+      - 儲存媒體
+      - RAID 
+      - 備份管理作業
   - 3-3.日誌管理
+    - 日誌管理基本觀念
+    - 日誌類型==> (A)系統日誌檔 (B) 應用程式日誌檔 (C) 安全性日誌檔
+    - Windows 作業系統日誌檔
+    - 日誌分析
+    - 日誌管理
+  - 資安技術
+    - 防火牆(Firewall)
+      - 防火牆類型
+        - 封包過濾防火牆(Packet-Filtering Firewall)
+        - 狀態檢視防火牆(Stateful Inspection Firewall)
+        - 代理伺服器(Proxy Server)
+    - 網站應用程式防火牆(Web Application Firewall, WAF)
+    - 蜜罐（Honeypot）
+    - 滲透測試(Penetration Testing)  vs 紅隊演練 (Red Team Assessment) 
 
+
+  
 - 4.新興科技安全
   - 4-1.雲端安全概論
     - 雲端運算定義
