@@ -1,6 +1,16 @@
 
 #
-
+```
+🌵南區報名 
+日期⏱10/30(六) 09:30-16:30
+主題🌸HappyLinuxSecurityDay：Linux與基礎資安分析實務🌸
+🌸詳細課程內容與報名
+https://forms.gle/UXEmP8tCZLqsKZro8
+日期⏱10/31(日) 09:30-16:30
+主題🌞HappyPythonDay：Python程式與資安實務🌞
+🌞詳細課程內容與報名
+ https://forms.gle/E73XfG2hqwx92hLP7
+```
 - [教育部資安管理](https://sites.google.com/email.nchu.edu.tw/nchu-isms/%E9%A6%96%E9%A0%81)
 - [ISCB: Information Security Certification Body](https://iscb.nchu.edu.tw/)
 
