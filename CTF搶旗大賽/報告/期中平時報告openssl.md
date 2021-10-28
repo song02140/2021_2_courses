@@ -26,3 +26,4 @@
 - [kali linus(kali/kali)](https://drive.google.com/file/d/1AvVImV_uF4k_XKRSKNr-pElDfQ0ifVsQ/view?usp=sharing)
 
 ## 參考文獻
+- [OpenSSL Cookbook, 3ed By Ivan Ristić](https://www.feistyduck.com/library/openssl-cookbook/)
