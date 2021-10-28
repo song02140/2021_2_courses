@@ -39,6 +39,8 @@
 - 2.作業系統與應用程式安全
   - 2-1.作業系統安全
     - windows 作業系統
+      - [Windows Authentication](https://docs.microsoft.com/en-us/windows-server/security/windows-authentication/windows-authentication-overview)
+      - Windows Security 
     - windows 作業系統常用指令
     - windows 作業系統管理與安全工具
       - task manager
