@@ -81,6 +81,8 @@
       - 加核與加密 
     - 開發安全與SSDLC
 
+- [Mitre Att&CK](https://attack.mitre.org/)
+- [Common Attack Pattern Enumeration and Classification (CAPEC™)](https://capec.mitre.org/about/index.html)
 
 - 3.資安維運技術
   - 3-1.惡意程式防護與弱點管理
@@ -115,7 +117,9 @@
     - Windows 作業系統日誌檔
     - 日誌分析
     - 日誌管理
-  - 資安技術
+
+  - 資安防護技術
+    - [Mitre D3FEND™ - A knowledge graph of cybersecurity countermeasures](https://d3fend.mitre.org/) 
     - 防火牆(Firewall)
       - 防火牆類型
         - 封包過濾防火牆(Packet-Filtering Firewall)
