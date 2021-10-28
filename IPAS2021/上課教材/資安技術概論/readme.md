@@ -44,6 +44,9 @@
       - task manager
       - event viewer
       - systeminternals 
+    - windows server技術:[官方網站](https://docs.microsoft.com/en-us/windows-server/)
+      - Active Directory(AD) ==> LDAP
+      - Group Policy(GP)
     - windows 攻擊手法: 
       - Windows binary exploitation 
       - Windows Kernel exploitation
