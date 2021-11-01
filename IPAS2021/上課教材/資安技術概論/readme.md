@@ -87,7 +87,7 @@
       - sqli
         - SQL == Structured Query Language == 結構化查詢語言
       - XSS
-        - [XSS DVWA 12 - XSS (Stored) (low/med/high) - Damn Vulnerable Web Application (DVWA)) (https://www.youtube.com/watch?v=P1I9UGpGdrU)
+        - [XSS DVWA 12 - XSS (Stored) (low/med/high) - Damn Vulnerable Web Application (DVWA)] (https://www.youtube.com/watch?v=P1I9UGpGdrU)
         - [11 - XSS (Reflected) (low/med/high) - Damn Vulnerable Web Application (DVWA)](https://www.youtube.com/watch?v=P1I9UGpGdrU)
     - OWASP API TOP 10
     - 網站安全測試 
