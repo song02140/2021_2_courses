@@ -35,7 +35,7 @@
 
   - 1-2.通訊安全
     - 無線區域網路(WLAN)
-      - [ap(access point)}(https://zh.wikipedia.org/wiki/%E7%84%A1%E7%B7%9A%E6%8E%A5%E5%85%A5%E9%BB%9E) 
+      - [ap(access point)](https://zh.wikipedia.org/wiki/%E7%84%A1%E7%B7%9A%E6%8E%A5%E5%85%A5%E9%BB%9E) 
       - ad hoc mode vs infrastrcuture mode 
     - 無線區域網路安全
       - Fake AP
