@@ -86,6 +86,11 @@
     - OWASP TOP 10
       - sqli
         - SQL == Structured Query Language == 結構化查詢語言
+```
+SELECT first_name, last_name 
+FROM users 
+WHERE user_id = '$id'
+```
       - XSS
         - [XSS DVWA 12 - XSS (Stored) (low/med/high) - Damn Vulnerable Web Application (DVWA)] (https://www.youtube.com/watch?v=P1I9UGpGdrU)
         - [11 - XSS (Reflected) (low/med/high) - Damn Vulnerable Web Application (DVWA)](https://www.youtube.com/watch?v=P1I9UGpGdrU)
