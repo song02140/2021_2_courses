@@ -57,6 +57,7 @@
       - [Windows Authentication](https://docs.microsoft.com/en-us/windows-server/security/windows-authentication/windows-authentication-overview)
       - [Windows 驗證](https://docs.microsoft.com/zh-tw/windows-server/security/windows-authentication/windows-authentication-overview)
       - [NTLM 使用者驗證](https://docs.microsoft.com/zh-tw/troubleshoot/windows-server/windows-security/ntlm-user-authentication)
+      - [Kerberos 認證](https://zh.wikipedia.org/wiki/Kerberos)
       - [Security and Protection(舊版)](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831778(v=ws.11)) 
     - windows 作業系統常用指令 [Windows commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
     - windows 作業系統管理與安全工具
