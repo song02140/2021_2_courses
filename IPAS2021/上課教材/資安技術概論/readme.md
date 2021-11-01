@@ -6,7 +6,11 @@
     - 網路攻擊模式分析
       - 網路協定的攻擊模式分析
         - DNS 的攻擊模式分析
+          - [DNS 快取記憶體DNS Poisoning (DNS Spoofing)](https://www.cloudflare.com/zh-tw/learning/dns/dns-cache-poisoning/)
+          - [DNS Amplification Attack](https://www.cc.ntu.edu.tw/chinese/epaper/0028/20140320_2808.html) 
         - NTP 的攻擊模式分析
+          - [NTP 放大DDoS 攻擊](https://www.cloudflare.com/zh-tw/learning/ddos/ntp-amplification-ddos-attack/)
+          - 有關XXXX攻擊的敘述,下列何者正確/錯誤? 
       - 著名的網路攻擊模式分析
         - DDOS
         - 社交工程 
