@@ -13,7 +13,12 @@
           - 有關XXXX攻擊的敘述,下列何者正確/錯誤? 
       - 著名的網路攻擊模式分析
         - DDOS
-        - 社交工程 
+          - 2000年初的DDOS: ping of death, TCP syn flood, smurf attack (icmp flood attack) 
+          - HTTP DDOS
+        - 社交工程
+          - 網路釣魚 (phishing）   
+          - 魚叉式網路釣魚（Spear phishing）
+          - 變臉詐騙/BEC(Business Email Compromise) 商務電子郵件詐騙
     - 安全的網路技術與協定
       - 應用層
         - https ==> SSL/TLS
