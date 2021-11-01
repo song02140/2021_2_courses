@@ -35,9 +35,16 @@
 
   - 1-2.通訊安全
     - 無線區域網路(WLAN)
+      - [ap(access point)}(https://zh.wikipedia.org/wiki/%E7%84%A1%E7%B7%9A%E6%8E%A5%E5%85%A5%E9%BB%9E) 
+      - ad hoc mode vs infrastrcuture mode 
     - 無線區域網路安全
       - Fake AP
       - 攻擊WEP
+         - 有關WEP的敘述下列何者為非?
+         - (A)有線等效加密(Wired Equivalent Privacy，WEP）是個保護無線網路資料安全的體制
+         - (B)使用RC4串流加密技術達到機密性 ==>(B)使用RC4區塊加密技術達到機密性
+         - (c)使用CRC-32 驗和達到資料正確性
+         - (D)RC4是流加密的一種，同一個鑰匙絕不能使用二次，所以使用（雖然是用明文傳送的）IV的目的就是要避免重複；然而24位元的IV並沒有長到足以擔保在忙碌的網路上不會重複，而且IV的使用方式也使其可能遭受到關連式鑰匙攻擊
       - 攻擊WPA
       - 攻擊WPA2
       - 攻擊WPA3 
