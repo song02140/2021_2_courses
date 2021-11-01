@@ -36,7 +36,9 @@
   - 1-2.通訊安全
     - 無線區域網路(WLAN)
       - [ap(access point)](https://zh.wikipedia.org/wiki/%E7%84%A1%E7%B7%9A%E6%8E%A5%E5%85%A5%E9%BB%9E) 
-      - ad hoc mode vs infrastrcuture mode 
+      - ad hoc mode(Ad-Hoc模式、無線隨意網路) vs infrastrcuture mode(基礎架構模式) 
+      - 服務集識別碼(Service Set Identifier，SSID)
+      - 獨立基本服務集（IBSS）、基本服務集（BSS）和擴充服務集（ESS）
     - 無線區域網路安全
       - Fake AP
       - 攻擊WEP
