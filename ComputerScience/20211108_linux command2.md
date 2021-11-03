@@ -30,6 +30,18 @@ curl 127.0.0.1 80
 - Final: unpack and unzip file ==> tar zxvf  ForYou.tar.gz
 - Show the final result ==> cat ForYou
 
+
+## linux-9
+- First: you need to chnage to /tmp directory
+- Seoncd: change to your directory  ===> cd XXX
+- Third: download file
+- Fourth: change the permission ===> chmod +x TobeExe
+- Fifth: see the file signature ==> file TobeExe
+- Final: run the program and see the result ==> ./TobeExe
+
+## linux-10
+
+
 ## tar
 ```
 tar --help
