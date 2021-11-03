@@ -1,4 +1,7 @@
 # [Kali Linux 滲透測試的藝術 Kali Linux渗透测试的艺术](https://www.tenlong.com.tw/products/9787115378446)
+
+- [網路有整本書](https://jobrest.gitbooks.io/kali-linux-cn/content/)
+
 ```
 Lee Allen, Tedi Heriyanto, Shakeel Ali
 
