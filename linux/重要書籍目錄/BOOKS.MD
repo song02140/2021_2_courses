@@ -1,4 +1,9 @@
 # linuX security
+
+- [Linux系统编程](https://detail.tmall.com/item.htm?spm=a312a.7700824.w4011-24063788657.115.78974b57SuBNUq&id=624417240214&rn=66d056eccbcdf7f7b11e24cda2dfddbe&abbucket=10)
+
+- []()
+
 ```
 Linux Shell自動化運維（慕課版）
 簡體中文/千鋒教育高教產品研發部/人民郵電出版日期：2020-07-01
