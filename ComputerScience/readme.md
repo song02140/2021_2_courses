@@ -3,7 +3,7 @@
 https://github.com/MyFirstSecurity2020/HappyPythonDay/tree/main/1_Python%E7%A8%8B%E5%BC%8F%E5%85%A5%E9%96%80
 
 
-## download the following image
+## download the following images
 
 - [Kali linux 2021.3](https://drive.google.com/file/d/1AvVImV_uF4k_XKRSKNr-pElDfQ0ifVsQ/view?usp=sharing)
 - [Ubuntu 18.04 LTS ](https://drive.google.com/file/d/1QPy_Ztk5Gl1ZkHRRCCytEJRem0KjItOw/view?usp=sharing)
