@@ -74,6 +74,9 @@
     - windows 攻擊手法: 
       - Windows binary exploitation 
       - Windows Kernel exploitation
+      - 傳遞雜湊(Pass-the-Hash)
+      - wannacry 攻擊(2017)
+      - 
     - LINUX 作業系統
     - LINUX 作業系統常用指令
     - LINUX 作業系統管理與安全工具
