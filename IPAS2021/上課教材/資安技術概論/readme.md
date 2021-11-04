@@ -116,6 +116,11 @@ WHERE user_id = '$id'
     - 資料庫的攻擊手法
     - 資料庫的安全防護
   - 2-3.程式與開發安全
+    - 應用程式(application) secure coding
+      - desktop application
+      - web application 網站應用程式 客戶端  vs 伺服器端(asp.net)
+      - mobile application:  andriod(java  kotlin) ios 
+      - [EC-Council CASE .NET應用程式安全工程師認證課程](https://www.uuu.com.tw/Course/Show/1501/EC-Council-CASE-NET%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E5%AE%89%E5%85%A8%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%AA%8D%E8%AD%89%E8%AA%B2%E7%A8%8B)
     - 應用程式的安全威脅
       - 逆向工程
     - 安全程式開發(secure code standard)
