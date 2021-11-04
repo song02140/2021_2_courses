@@ -80,6 +80,10 @@
     - LINUX 攻擊手法: 
       - Linux binary exploitation 
       - Linux Kernel exploitation
+      - 'root'kit
+      - [髒牛漏洞(Dirty Cow)](https://ppfocus.com/0/scbf79101.html)
+      - [LES: Linux privilege escalation auditing tool](https://github.com/mzet-/linux-exploit-suggester)
+      - [入侵 Linux 系統的慣用姿勢：11 種提權方式揭祕 - 知乎](https://www.gushiciku.cn/pl/p96O/zh-tw)
       
   - 2-2.作業系統與應用程式 (含資料庫與網頁)攻擊手法
     - 網站安全
