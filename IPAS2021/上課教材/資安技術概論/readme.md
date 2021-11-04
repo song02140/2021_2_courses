@@ -81,9 +81,15 @@
       - Linux binary exploitation 
       - Linux Kernel exploitation
       - 'root'kit
+        - [nurupo/rootkit](https://github.com/nurupo/rootkit)
+        - [惡意程式潛伏Linux主機　揪出系統遭植入Rootkit](https://www.netadmin.com.tw/netadmin/zh-tw/technology/F632D1F9D2B34E8B9FCC725B45509BB5) 
+        - [f0rb1dd3n/Reptile](https://github.com/f0rb1dd3n/Reptile)
+        - [后渗透之Rootkit及入门](https://zhuanlan.zhihu.com/p/132519704)
       - [髒牛漏洞(Dirty Cow)](https://ppfocus.com/0/scbf79101.html)
       - [LES: Linux privilege escalation auditing tool](https://github.com/mzet-/linux-exploit-suggester)
       - [入侵 Linux 系統的慣用姿勢：11 種提權方式揭祕 - 知乎](https://www.gushiciku.cn/pl/p96O/zh-tw)
+      
+      - [HackerCat](https://www.youtube.com/channel/UCkZAkJWOAExMfVp1XHt1VOA)
       
   - 2-2.作業系統與應用程式 (含資料庫與網頁)攻擊手法
     - 網站安全
