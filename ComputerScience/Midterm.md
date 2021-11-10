@@ -14,6 +14,6 @@
 - also send your github  address to me
   - your name: mydeargreateacher/2021_2_courses/ComputerScience 
 
-## Time:13:30-17:30
+## Time:13:30-15:20
 
 
