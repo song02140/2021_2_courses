@@ -166,7 +166,7 @@ WHERE user_id = '$id'
     - 日誌分析
     - 日誌管理
 
-  - 資安防護技術
+  - 3.4.資安防護技術
     - [Mitre D3FEND™ - A knowledge graph of cybersecurity countermeasures](https://d3fend.mitre.org/) 
     - 防火牆(Firewall)
       - 防火牆類型
