@@ -2,30 +2,29 @@
 ## 資訊安全管理概論
 
 - 1.資訊安全管理概念
-``` 
-   資訊安全目標_CIA   
-     CIA: 機密性(Confidentiality) 完整性(Integrity) 可用性(Availability)
-     各種破壞CIA的情境
-     保護CIA的方法
-     AAA ==> 驗證(Authentication) 授權(Authorization) 可歸責(Accountability)
-     CIAAAA
-     其他資安基本觀念 
-        可靠度(Reliability)
-        不可否認性(Non-repudiation)
-        邊界與分類(Boundary and classification)
-        職務區隔(Segregation of duties, SOD) 
-        縱深防禦(Layered defense, defense in depth)
-        單一脆弱點(Single point of failure, SPOF)
-        阿奇里斯腱(Achilles heel)
-        木桶理論(Bucker principle）
-        僅知原則(Need to know)
-   資訊安全管理系統|ISMS|Information Security Management System
-     導入ISMS的目的
-     導入ISMS的過程與程序
-     導入ISMS的關鍵主題與事項
-   相關法規概論與遵循
-   隱私權保護與智慧財產權
-```
+  - 資訊安全目標_CIA   
+    - CIA: 機密性(Confidentiality) 完整性(Integrity) 可用性(Availability)
+    - 各種破壞CIA的情境
+    - 保護CIA的方法
+    - AAA ==> 驗證(Authentication) 授權(Authorization) 可歸責(Accountability)
+    - CIA AAA
+    - 其他資安基本觀念 
+      - 可靠度(Reliability)
+      - 不可否認性(Non-repudiation)
+      - 邊界與分類(Boundary and classification)
+      - 職務區隔(Segregation of duties, SOD) 
+      - 縱深防禦(Layered defense, defense in depth)
+      - 單一脆弱點(Single point of failure, SPOF)
+      - 阿奇里斯腱(Achilles heel)
+      - 木桶理論(Bucker principle）
+      - 僅知原則(Need to know)
+  - 資訊安全管理系統|ISMS|Information Security Management System
+    - 導入ISMS的目的
+    - 導入ISMS的過程與程序
+    - 導入ISMS的關鍵主題與事項
+  - 相關法規概論與遵循
+  - 隱私權保護與智慧財產權
+  
 - 2.資產與風險管理
   - 2-1.資產分類分級與盤點
     - 資訊資產
@@ -88,7 +87,42 @@
       - 3_詰問與回應身分鑑別技術
       - 4_生物特徵鑑別技術 
   - 3-2.加解密與金鑰生命週期
-
+    - 密碼學（Cryptography）: 加密 解密  明文 密文
+      - 一般可分為古典密碼學和現代密碼學。
+      - 古典密碼學 == > 凱薩密碼
+      - 現代密碼
+        - 對稱加密（Symmetric Cryptography），以 DES，3DES，AES，RC4 為代表。
+          - 主要分為兩種方式：
+            - 區塊編碼器（Block Cipher），又稱為塊密碼 ==> DES，3DES，AES
+            - 序列密碼（Stream Cipher），又稱為流密碼 ==> RC4
+        - 非對稱加密（Asymmetric Cryptography），以 RSA，ElGamal，橢圓曲線加密為代表。
+        - 雜湊函數（Hash Function）==> 以 MD5，SHA-1，SHA-512 等為代表。
+        - 數位簽章（Digital Signature）==> 以 RSA 簽名，ElGamal 簽名，DSA 簽名為代表。 
+      - Public Key Infrastructure公開金鑰基礎建設 (PKI)
+       
 - 4.事故管理與營運持續
   - 4-1.事件與事故管理
+    - 資安事故(Security Incident)與資安事件（Security Event）
+      - 資安事故(Security Incident) ==> 尚未對組織或單位造成損失
+      - 資安事件（Security Event） ==>對此資安事件已對組織或單位的資產造成損失
+    - 資訊安全事件通報
+      - 行政院國家資通安全會報通報及應變作業流程 
+    - 資安事故應變與處理程序(循環)
   - 4-2.備援與營運持續
+  - 備援
+  - 重要觀念
+    - 目標回復時間 (Recovery Time Objective, RTO):關鍵業務從事故發生到完成回復最低運作水準之可接受時間。
+    - 資料回復點目標 (Recovery Point Objectives, RPO): 資料中心能容忍的最大資料遺失量
+    - 最大可容忍的中斷時間（Maximum Tolerable Period of Disruption， MTPD）:關鍵業務發生中斷後，恢復至最低運作水準，所能容許的中斷時間。
+  - 備份方式1
+    - 完整備份（Full Backup）
+    - 差異備份（Differential Backup）
+    - 增量備份（Incremental Backup）
+    - 選擇式備份（Selective Backup）:對系統的一部分進行備份。
+  - 備份方式2
+    - hot備份
+    - WARM備份
+    - COLD備份
+  - 備份方式2
+    - LOCAL 備份
+    - REMOTE 備份(remote backup)
