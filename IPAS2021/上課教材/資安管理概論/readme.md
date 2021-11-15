@@ -123,6 +123,6 @@
     - hot備份
     - WARM備份
     - COLD備份
-  - 備份方式2
+  - 備份方式3
     - LOCAL 備份
     - REMOTE 備份(remote backup)
