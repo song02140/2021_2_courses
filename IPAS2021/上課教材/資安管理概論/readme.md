@@ -109,20 +109,47 @@
       - 行政院國家資通安全會報通報及應變作業流程 
     - 資安事故應變與處理程序(循環)
   - 4-2.備援與營運持續
-  - 備援
-  - 重要觀念
+    - 備援
+    - 重要觀念
     - 目標回復時間 (Recovery Time Objective, RTO):關鍵業務從事故發生到完成回復最低運作水準之可接受時間。
     - 資料回復點目標 (Recovery Point Objectives, RPO): 資料中心能容忍的最大資料遺失量
     - 最大可容忍的中斷時間（Maximum Tolerable Period of Disruption， MTPD）:關鍵業務發生中斷後，恢復至最低運作水準，所能容許的中斷時間。
-  - 備份方式1
+    
+    - 備份方式1
     - 完整備份（Full Backup）
     - 差異備份（Differential Backup）
     - 增量備份（Incremental Backup）
     - 選擇式備份（Selective Backup）:對系統的一部分進行備份。
-  - 備份方式2
+  
+    - 備份方式2
     - hot備份
     - WARM備份
     - COLD備份
-  - 備份方式3
+  
+    - 備份方式3
     - LOCAL 備份
     - REMOTE 備份(remote backup)
+
+    - 備份管理
+    
+  - 營運持續
+    - 營運持續(Business continuity)
+    - BCP(Business continuity `planning`) 業務連續性`計畫(規劃)`
+    - BCM(Business Continuity `Management`)業務連續性`管理`
+    -  (Business continuity planning)
+    - 營運持續管理的國際標準 ISO 22301
+    - 營運持續步驟:
+      - 1_建立業務持續運作`策略`
+      - 2_營運衝擊分析(Business Impact Analysis):BIA
+        - BIA的步驟:
+          - 識別組織的關鍵業務功能
+          - 計算關鍵業務
+          - 最大可承受中斷時間 (Max. Tolerable Period of Disruption, MTPD)
+          - 目標回覆時間(Recovery Time Objective, RTO)
+          - 各營運活動可容忍資料遺失之期間(Recovery Point Objective, RPO)
+          - 最低服務水準 (Min service level) 
+      - 3_識別`防禦性`控制措施
+      - 4_發展復原策略
+      - 5_發展營運持續計畫
+      - 6_測試與演練
+      - 7_維護營運持續計畫
